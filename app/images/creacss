@@ -1,0 +1,14 @@
+#! /bin/bash
+
+echo "" > elenco.txt
+
+DIRS=`ls menu*`
+
+for filename in $DIRS; do
+	#echo $filename >> elenco.txt
+	echo "div#$filename {" >> elenco.txt;
+	echo "background-image: url(\"../images/$filename\");" >> elenco.txt;
+	echo "}" >> elenco.txt;
+
+done
+

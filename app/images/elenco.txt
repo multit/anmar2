@@ -1,0 +1,58 @@
+
+div#menu_app.png {
+background-image: url("../images/menu_app.png");
+}
+div#menu_appuntamenti.png {
+background-image: url("../images/menu_appuntamenti.png");
+}
+div#menu_arrow.png {
+background-image: url("../images/menu_arrow.png");
+}
+div#menu_associazione.png {
+background-image: url("../images/menu_associazione.png");
+}
+div#menu_contatti.png {
+background-image: url("../images/menu_contatti.png");
+}
+div#menu_guide.png {
+background-image: url("../images/menu_guide.png");
+}
+div#menu_istituzioni.png {
+background-image: url("../images/menu_istituzioni.png");
+}
+div#menu_news.png {
+background-image: url("../images/menu_news.png");
+}
+div#menu_newsletter.png {
+background-image: url("../images/menu_newsletter.png");
+}
+div#menu_normativa.png {
+background-image: url("../images/menu_normativa.png");
+}
+div#menu_psicologo.png {
+background-image: url("../images/menu_psicologo.png");
+}
+div#menu_pubblicazioni.png {
+background-image: url("../images/menu_pubblicazioni.png");
+}
+div#menu_reumatologia.png {
+background-image: url("../images/menu_reumatologia.png");
+}
+div#menu_ricerca.png {
+background-image: url("../images/menu_ricerca.png");
+}
+div#menu_sostenitori.png {
+background-image: url("../images/menu_sostenitori.png");
+}
+div#menu_sostieni.png {
+background-image: url("../images/menu_sostieni.png");
+}
+div#menu_stampa.png {
+background-image: url("../images/menu_stampa.png");
+}
+div#menu_video.png {
+background-image: url("../images/menu_video.png");
+}
+div#menu_vivere.png {
+background-image: url("../images/menu_vivere.png");
+}

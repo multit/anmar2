@@ -1,0 +1,1 @@
+DDG.duckbar.add_array([]);DDG.duckbar.failed('nlp_qa');

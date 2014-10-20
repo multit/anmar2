@@ -1,0 +1,243 @@
+/* all app scss styles here */
+
+$anmar-azzurro: #2990C2;
+$anmar-darkblue: #16516E;
+$anmar-lightblue: #237EAA;
+$head-gray: #EDEDED;
+
+$OpenSans: 'Open Sans', sans-serif; /* 400 e 700 */
+$Roboto: 'Roboto Slab', serif;  /* 400 e 300 */
+$titoli: $Roboto;
+
+
+body {
+	font: 100% $OpenSans;
+  	color: #666;
+}
+a {
+	text-decoration: none;
+	color: $anmar-lightblue;	
+	font-weight: bold;
+}
+a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+.columns {
+	font-size: .8em;
+	font-weight:300;
+	line-height: 1.45em;	
+}
+.columns img {
+	display: block;
+	margin-top: 10px;
+}
+
+div#testata {
+	height: 180px;
+	background-color: $head-gray;	
+}
+
+.pagina .row {
+	margin-top: 20px;	
+}
+
+.titolo {
+	border-top: 1px solid #CCC;
+	font-family: $titoli;
+	letter-spacing: -.5px;
+	font-weight: 400;
+	display: block;
+	padding-top: 8px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	line-height: 1.2em;
+}
+
+.row:first-child .titolo {
+	border-top: 0px solid #CCC;
+}
+
+.mini {
+	font-size: 16px;
+}
+.piccolo {
+	font-size: 18px;
+}
+.medio {
+	font-size: 20px;
+}
+.grande {
+	font-size: 22px;
+}
+.maxi {
+	font-size: 36px;
+}	
+
+.data_small {
+	margin: 0px;
+	font-weight: 700;
+	color: #000;
+	font-size: 12px;
+}
+
+/* Pulsantiera */
+
+div#pulsantiera div.tabs {
+	background-color: $anmar-azzurro;
+	margin: 0px;
+	padding: 0px;
+}
+
+div#pulsantiera div.tabs div{
+	height: 45px;	
+	border: 0px solid #FFF000;
+	padding-top: 11px;
+	text-align: center;
+}
+div#pulsantiera div.tabs div a {
+	font-family: $titoli;
+	letter-spacing: -.1px;
+	font-weight: 300;
+	font-size: 16px;
+	color: $head-gray;
+	outline: none;
+	
+}
+
+div#pulsantiera div.tabs div.active {
+	color: #FFF;
+	background-repeat: no-repeat;
+	background-position: center 100%;
+	background-image: url("../images/menu_arrow.png");
+	
+}
+
+div#pulsantiera div.tabs-content  {
+	background: rgba(21,59,77,1);
+	background: -moz-linear-gradient(top, rgba(21,59,77,1) 0%, rgba(41,143,194,1) 90%, rgba(41,143,194,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(21,59,77,1)), color-stop(90%, rgba(41,143,194,1)), color-stop(100%, rgba(41,143,194,1)));
+	background: -webkit-linear-gradient(top, rgba(21,59,77,1) 0%, rgba(41,143,194,1) 90%, rgba(41,143,194,1) 100%);
+	background: -o-linear-gradient(top, rgba(21,59,77,1) 0%, rgba(41,143,194,1) 90%, rgba(41,143,194,1) 100%);
+	background: -ms-linear-gradient(top, rgba(21,59,77,1) 0%, rgba(41,143,194,1) 90%, rgba(41,143,194,1) 100%);
+	background: linear-gradient(to bottom, rgba(21,59,77,1) 0%, rgba(41,143,194,1) 90%, rgba(41,143,194,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#153b4d', endColorstr='#298fc2', GradientType=0 );
+	height: 125px;
+	margin: 0px;
+	padding: 0px;
+}
+div#pulsantiera div.tabs-content div.content .row {
+	margin: 0px;
+	}
+div#pulsantiera div.tabs-content div.content .row div {
+	font-family: $titoli;
+	letter-spacing: -.1px;
+	font-weight: 300;
+	line-height: 1.1em;
+	color: $head-gray;
+	font-size: 16px;
+	border-right: 1px solid $anmar-azzurro;
+	height: 120px;
+	background-repeat: no-repeat;
+	background-position: 30px 80%;
+	opacity: .8;
+	cursor: pointer;
+	margin-top: -10px;
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+
+div#pulsantiera div.tabs-content div.content .row div:last-child {
+	border: none;
+}
+div#pulsantiera div.tabs-content div.content .row div:hover {
+	opacity: 1;
+}
+
+div.pulsantieraItem {
+	font-family: $titoli;
+	letter-spacing: -.1px;
+	font-weight: 300;
+	line-height: 1.1em;
+	color: $head-gray;
+	font-size: 16px;
+	border-right: 1px solid $anmar-azzurro;
+	height: 120px;
+	text-align: left;	
+	padding-left: 30px;
+	padding-right: 15px;
+	padding-top: 10px;
+	margin-top: 5px;
+	background-repeat: no-repeat;
+	background-position: 30px 80%;
+	opacity: .8;
+	cursor: pointer;	
+}
+div.pulsantieraBottom .pulsantieraItem:hover,
+div.pulsantieraTop .pulsantieraItem:hover
+{
+	opacity: 1;
+}
+
+div#menu_app {
+background-image: url("../images/menu_app.png");
+}
+div#menu_appuntamenti {
+background-image: url("../images/menu_appuntamenti.png");
+}
+div#menu_arrow {
+background-image: url("../images/menu_arrow.png");
+}
+div#menu_associazione {
+background-image: url("../images/menu_associazione.png");
+}
+div#menu_contatti {
+background-image: url("../images/menu_contatti.png");
+}
+div#menu_guide {
+background-image: url("../images/menu_guide.png");
+}
+div#menu_istituzioni {
+background-image: url("../images/menu_istituzioni.png");
+}
+div#menu_news {
+background-image: url("../images/menu_news.png");
+}
+div#menu_newsletter {
+background-image: url("../images/menu_newsletter.png");
+}
+div#menu_normativa {
+background-image: url("../images/menu_normativa.png");
+}
+div#menu_psicologo {
+background-image: url("../images/menu_psicologo.png");
+}
+div#menu_pubblicazioni {
+background-image: url("../images/menu_pubblicazioni.png");
+}
+div#menu_reumatologia {
+background-image: url("../images/menu_reumatologia.png");
+}
+div#menu_ricerca {
+background-image: url("../images/menu_ricerca.png");
+}
+div#menu_sostenitori {
+background-image: url("../images/menu_sostenitori.png");
+}
+div#menu_sostieni {
+background-image: url("../images/menu_sostieni.png");
+}
+div#menu_stampa {
+background-image: url("../images/menu_stampa.png");
+}
+div#menu_video {
+background-image: url("../images/menu_video.png");
+}
+div#menu_vivere {
+background-image: url("../images/menu_vivere.png");
+}
+
+
+ @import "mobile";

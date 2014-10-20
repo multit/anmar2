@@ -1,0 +1,22 @@
+/* Stili mobile */
+/*
+.top-bar {	
+	background-color: $anmar-azzurro;
+}
+.top-bar-section ul li a,
+.top-bar-section li:not(.has-form) a:not(.button)
+ {
+	background-color: $anmar-darkblue;
+}
+*/
+
+.top-bar-section ul li, .top-bar-section {
+	border-bottom: 0px solid $anmar-lightblue;
+	margin-top: 0px;
+}
+
+
+
+li.back h5 {
+	background-color: $anmar-lightblue;
+}
