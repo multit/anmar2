@@ -5909,7 +5909,8 @@ a:hover {
 
 div#testata {
   height: 180px;
-  background-color: #EDEDED; }
+  background-color: #EDEDED;
+  overflow: hidden; }
 
 .pagina .row {
   margin-top: 20px; }
@@ -5948,6 +5949,11 @@ div#testata {
   font-weight: 700;
   color: #000;
   font-size: 12px; }
+
+div#footer {
+  margin-top: 30px;
+  background-color: #EDEDED;
+  padding-bottom: 50px; }
 
 /* Pulsantiera */
 div#pulsantiera div.tabs {
@@ -6113,7 +6119,8 @@ div.banner-social {
   div.banner-social a {
     color: #2990C2;
     font-size: 1.5em;
-    padding: 2px; }
+    padding: 2px;
+    margin-bottom: 5px; }
 
 /* Stili mobile */
 /*

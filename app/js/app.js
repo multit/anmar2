@@ -23,3 +23,13 @@ var app = (function(document, $) {
 	app.init();
 
 })();
+
+
+//$('.banner-sostieni').css({ y: -200 });
+//$('.banner-sostieni').transition({ y: 0, delay:500, easing:"easeOutQuad" });
+
+
+
+$('#HPanmar-banner')
+	.css({ y: -300 })
+	.transition({ y: 0, easing:"easeOutQuad", delay:400 })
