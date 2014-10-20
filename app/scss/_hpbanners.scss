@@ -1,0 +1,27 @@
+ /* banners Homepage styles */
+
+div.banner-social, div.banner-sostieni {
+	font-family: $Roboto;	
+}
+
+div.banner-sostieni {
+	background: url("../images/sostieni_flag.png") no-repeat;
+	padding-left: 60px;
+	font-size: 1em;
+	color: $anmar-azzurro;
+	padding-top: 5px;
+	h1 {
+		font-size: 1.5em;
+		color: $anmar-darkblue;
+	}
+}
+
+div.banner-social {
+	margin-top: 10px;
+	 a {
+	color: $anmar-azzurro;
+	font-size: 1.5em;
+	padding: 2px;
+	}
+
+}

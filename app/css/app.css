@@ -6094,6 +6094,27 @@ div#menu_video {
 div#menu_vivere {
   background-image: url("../images/menu_vivere.png"); }
 
+/* banners Homepage styles */
+div.banner-social, div.banner-sostieni {
+  font-family: 'Roboto Slab', serif; }
+
+div.banner-sostieni {
+  background: url("../images/sostieni_flag.png") no-repeat;
+  padding-left: 60px;
+  font-size: 1em;
+  color: #2990C2;
+  padding-top: 5px; }
+  div.banner-sostieni h1 {
+    font-size: 1.5em;
+    color: #16516E; }
+
+div.banner-social {
+  margin-top: 10px; }
+  div.banner-social a {
+    color: #2990C2;
+    font-size: 1.5em;
+    padding: 2px; }
+
 /* Stili mobile */
 /*
 .top-bar {	
