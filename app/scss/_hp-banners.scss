@@ -18,8 +18,6 @@ div.banner-sostieni {
 
 div.banner-social {
 	margin-top: 10px;
-
-	
 	a {
 	color: $anmar-azzurro;
 	font-size: 1.5em;
@@ -27,4 +25,23 @@ div.banner-social {
 	margin-bottom: 5px;
 	}
 
+}
+
+
+/* Orbit sliders */
+ul.example-orbit li {
+	text-align: center;
+
+}
+
+div.hp-banner-container {
+	text-align: center;
+	border-top: 4px solid $anmar-gray;
+	border-bottom: 4px solid $anmar-gray;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	background-color: $anmar-gray;
+}
+.orbit-timer {
+	display:none;
 }

@@ -5903,6 +5903,17 @@ a:hover {
   font-weight: 300;
   line-height: 1.45em; }
 
+/* per masonry */
+.articolo {
+  /*width: 34%;  settato via js */
+  margin-bottom: 7px;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 8px; }
+
+div.articolo .titolo {
+  border: none; }
+
+/*   */
 .columns img {
   display: block;
   margin-top: 10px; }
@@ -6011,7 +6022,7 @@ div#pulsantiera div.tabs-content div.content .row div {
   opacity: 0.8;
   cursor: pointer;
   margin-top: -10px;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-right: 15px;
   padding-top: 10px; }
 
@@ -6121,6 +6132,21 @@ div.banner-social {
     font-size: 1.5em;
     padding: 2px;
     margin-bottom: 5px; }
+
+/* Orbit sliders */
+ul.example-orbit li {
+  text-align: center; }
+
+div.hp-banner-container {
+  text-align: center;
+  border-top: 4px solid #EDEDED;
+  border-bottom: 4px solid #EDEDED;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  background-color: #EDEDED; }
+
+.orbit-timer {
+  display: none; }
 
 /* Stili mobile */
 /*
