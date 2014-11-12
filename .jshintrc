@@ -9,7 +9,7 @@
 	"trailing": true,
 	"browser": true,
 	"devel": true,
-	"strict": true,
+	"strict": false,
 	"quotmark": "single",
 	"globals": {
 		"jQuery": false,

@@ -36,6 +36,7 @@ a:hover{
 	margin-bottom: 7px;
 	border-bottom: 1px solid #CCC;
 	padding-bottom: 8px;
+	overflow: hidden;
 }
 div.articolo .titolo {
 	border: none;
@@ -55,11 +56,11 @@ div#testata {
 }
 
 .pagina .row {
-	margin-top: 20px;	
+	padding-top: 10px;
 }
 
+
 .titolo {
-	border-top: 1px solid #CCC;
 	font-family: $titoli;
 	letter-spacing: -.5px;
 	font-weight: 400;
@@ -69,10 +70,45 @@ div#testata {
 	margin-top: 10px;
 	line-height: 1.2em;
 }
-
-.row:first-child .titolo {
-	border-top: 0px solid #CCC;
+.titolo-rubrica {
+	margin-top: 50px;
+	border-top: 1px solid $anmar-darkblue;
+	color: $anmar-azzurro;
 }
+
+.scaffale div img {
+	width: 180px;
+	margin: 10px;
+}
+
+.articolo-singolo {
+	font-family: $Roboto;
+	font-size: .96em;
+	line-height: 1.7em;
+	font-weight: 300;
+	color: #000;/*
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 400;
+	color: #000;*/
+}
+.articolo-singolo-titolo {
+	color: $anmar-azzurro;
+}
+
+.articolo-singolo-data {
+	color: $anmar-darkblue;
+	font-family: $OpenSans;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.categoria, .categoria a {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: $anmar-darkblue;
+	font-weight: 400;
+}
+
 
 .mini {
 	font-size: 16px;
